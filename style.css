@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25%;
+
+}
+
+
+.itens-da-lista > li {
+  text-align: left;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.249);
+  margin-top: 10px;
+}
+
+.lista {
+  width: 60%;
+}
